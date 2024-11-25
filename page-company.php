@@ -40,7 +40,7 @@ get_header('company');
 <section class="section-contents" id="company-about">
   <div class="wrapper maxw600">
     <span class="section-title-en"></span>
-    <h2 class="section-title" style="margin-bottom:30px;">会社概要</h2>
+    <h2 class="section-title" style="margin-bottom:30px;">アクセス</h2>
     <div class="l-company-table">
       <table style="margin-top:4%!important;">
         <tr>
@@ -69,75 +69,6 @@ get_header('company');
           <th>定休日</th>
           <td>水</td>
         </tr>
-        <!-- <tr>
-          <th>設立</th>
-          <td>2024年</td>
-        </tr>
-        <tr>
-          <th>資本金</th>
-          <td>1,000,000 円</td>
-        </tr>
-        <tr>
-          <th>従業員</th>
-          <td>〇〇名</td>
-        </tr>
-        <tr>
-          <th>建設業許可番号</th>
-          <td>〇〇〇〇号</td>
-        </tr>
-        <tr>
-          <th>〇〇建築士事務所</th>
-          <td>〇〇〇〇</td>
-        </tr>
-        <tr>
-          <th>有資格者</th>
-          <td>
-            <ul>
-              <li>〇〇建築士 〇名</li>
-              <li>〇〇施工管理技士（建築） 〇名</li>
-              <li>危険物取扱者 乙種 〇類 〇名</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <th>業務内容</th>
-          <td>
-            <ul>
-              <li>総合建築工事</li>
-              <li>コンテナハウス製作、販売</li>
-              <li>設計業務</li>
-              <li>リフォーム全般</li>
-              <li>エクステリア全般</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <th>業務提携先</th>
-          <td>
-            <ul>
-              <li>〇〇建設株式会社 〇〇県</li>
-              <li>〇〇株式会社 〇〇県</li>
-              <li>〇〇設計事務所 〇〇県</li>
-              <li>〇〇建設株式会社 〇〇県</li>
-              <li>〇〇建設株式会社 〇〇県</li>
-              <li>有限会社〇〇設備 〇〇県</li>
-              <li>有限会社〇〇エクステリア 〇〇県</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <th>取引銀行</th>
-          <td>●●●●銀行 ●●支店</td>
-        </tr>
-        <tr>
-          <th>管理窓口代行</th>
-          <td>
-            <ul>
-              <li>〒555-0012 大阪市西淀川区御幣島2丁目7番22号</li>
-              <li>TEL 06-6476-5077</li>
-            </ul>
-          </td>
-        </tr> -->
       </table>
     </div>
   </div>
