@@ -11,6 +11,21 @@ get_header('company');
     <h2 class="section-title message-title">代表挨拶</h2>
     <div class="message-div">
       <div>
+        <h3>区内を中心に、多様なエリアの不動産に対応できる柔軟な体制を整えています</h3>
+        <hr>
+        <p style="text-align:left;">不動産に関する豊富な経験を基に、大阪市や豊中市、尼崎市などの幅広いエリアにおける不動産売却等をトータルサポートしております。これまでに培ってきた経験や知識を活かしながら更なる成長と発展を遂げられるように精進を重ね、新大阪駅近くという立地条件を活かしながら、淀川区から対応エリアを広げています。同時に、お客様との信頼関係を築くことを怠らず、不動産に関するお悩み事について細やかにヒアリングしたうえで、一人ひとりのお気持ちに寄り添ったご提案をいたします。安心して売却をお任せいただける誠実かつ丁寧なサービスがこだわりです。<br><br>アトレイル株式会社<br>代表取締役 西田 博</p>
+      </div>
+      <!-- <img src="https://atrail.co.jp/wp-content/uploads/images/message-img01@2x.jpg" alt="" class="message-img"> -->
+    </div>
+  </div>
+  </div>
+</section>
+<!-- <section class="section-contents" id="message">
+  <div class="wrapper maxw100vw">
+    <span class="section-title-en"></span>
+    <h2 class="section-title message-title">代表挨拶</h2>
+    <div class="message-div">
+      <div>
         <h3>「暮らしに自由を」<br>それが私たちのコミットメントです。</h3>
         <hr>
         <p style="text-align:left;">コンテナに興味をお持ちいただきありがとうございます。<br>長年大手ハスメーカーに従事、暮らし・建設設計・土地活用についてのノウハウを活かしながら<br>「お客様の夢とこだわりをもっと叶えやすく、もっと沢山の人へ喜びを届けたい」<br>その想いでアトレイルを立ち上げました。<br>夢が叶った時のお客様の喜びには私たちも胸が熱くなります。世界に１つだけのこだわりのライフスタイル、ジョブスタイル、色々なスタイルをご相談ください。素敵な時間を過ごすための空間を、アトレイルチームが共に一丸となりカタチにいたします。<br><br>アトレイル株式会社<br>代表取締役 西田 博</p>
@@ -19,7 +34,7 @@ get_header('company');
     </div>
   </div>
   </div>
-</section>
+</section> -->
 
 <!-- 会社概要 -->
 <section class="section-contents" id="company-about">
@@ -41,11 +56,20 @@ get_header('company');
           <td>
             <ul>
               <li>〒533-0033 大阪市東淀川区東中島1丁目21番3号</li>
-              <li>TEL 00-0000-0000</li>
+              <li>TEL 06-6379-3018</li>
+              <li>FAX 06-6379-3051</li>
             </ul>
           </td>
         </tr>
         <tr>
+          <th>営業時間</th>
+          <td>10:00〜17:00</td>
+        </tr>
+        <tr>
+          <th>定休日</th>
+          <td>水</td>
+        </tr>
+        <!-- <tr>
           <th>設立</th>
           <td>2024年</td>
         </tr>
@@ -113,7 +137,7 @@ get_header('company');
               <li>TEL 06-6476-5077</li>
             </ul>
           </td>
-        </tr>
+        </tr> -->
       </table>
     </div>
   </div>
