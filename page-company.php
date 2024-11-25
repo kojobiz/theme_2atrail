@@ -83,9 +83,4 @@ get_header('company');
     </div>
   </div>
 </section>
-
-
-
-
-
 <?php get_footer(); ?>
