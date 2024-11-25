@@ -55,8 +55,8 @@
       /////// 使用するページの要素を取得するphp
       ----------------------------->
       <?php
-      // 記事が続く限り、でも４つまで
-      $shop_pages = get_child_pages(4, $shop_obj->ID);
+      // 記事が続く限り、でも13個まで
+      $shop_pages = get_child_pages(13, $shop_obj->ID);
       if ($shop_pages->have_posts()) :
         while ($shop_pages->have_posts()) : $shop_pages->the_post();
       ?>
