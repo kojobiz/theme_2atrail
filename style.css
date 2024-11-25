@@ -2828,9 +2828,9 @@ form
 
 #keyvisual {
   padding: 0;
-  height: 100vh;
-  max-height: 740px;
-  min-height: 740px;
+  height: auto;
+  /* max-height: 740px;
+  min-height: 740px; */
 }
 
 #keyvisual .wrapper {
@@ -4009,7 +4009,7 @@ form
 }
 
 .section-contents {
-  padding: 90px 12.5% 100px;
+  padding: 40px 12.5% 100px;
   width: 100%;
   text-align: center;
   position: relative;
