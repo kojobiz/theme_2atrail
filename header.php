@@ -18,7 +18,7 @@
 <body <?php body_class(); ?>>
   <div class="container">
     <header id="header">
-      <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; margin-top:-8px; margin-bottom:20px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</div>
+      <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; margin-top:-8px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</div>
       <div class="header-inner" style="display:flex; flex-direction:column;">
 
         <!-- inner-white -->

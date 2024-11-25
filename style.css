@@ -2601,9 +2601,9 @@ form
     content: "";
     position: absolute;
     left: 0;
-    width: 27px;
+    width: 20px;
     height: 1px;
-    background-color: #fff !important;
+    background-color: #005e31 !important;
   }
 
   #header .toggle-menu .toggle-line::before {
