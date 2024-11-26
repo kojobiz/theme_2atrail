@@ -33,6 +33,7 @@
                               </dl>
                               <br>
                               <br>
+                              <!-- リンク先が空でない場合の処理 -->
                               <?php if (!empty($link_btn)): ?>
                                 <a href="<?php echo esc_url($link_btn); ?>" target="_blank" rel="noopener noreferrer" style="color: white; background-color: #232323; padding: 3px 80px; font-size: 10px; border-radius: 60px;">詳細はこちら</a>
                               <?php endif; ?>
