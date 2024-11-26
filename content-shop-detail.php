@@ -1,7 +1,7 @@
                         <?php
                         // タイトルを定義して変数に格納
-                        $title_one = 'title1';
-                        $title_two = 'title2';
+                        $title_one = 'サービス';
+                        $title_two = 'その他';
                         ?>
 
                         <li class="shopList-item">
