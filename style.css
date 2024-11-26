@@ -451,6 +451,14 @@ info
 }
 
 /*****************
+front-page
+*****************/
+.shop-image-frontpage {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/*****************
 company
 *****************/
 .l-company-table {
@@ -4122,26 +4130,23 @@ tel {
   -ms-flex-pack: justify;
   justify-content: space-between;
   justify-items: center;
-  margin: calc(-147px + 12.6%) auto 0;
+  /* margin: calc(-147px + 12.6%) auto 0; */
   /* max-width: 960px; */
 }
 
 #shop .shops-item {
-  margin: 80px 0 68px;
-  width: 48.4375%;
+  margin: 10px;
   position: relative;
 }
 
 #shop .shops-item .shop-body {
   position: absolute;
-  right: 6.45%;
   bottom: -88px;
   padding: 20px 22px;
-  width: 65%;
+  width: 100%;
   text-align: left;
   background-color: #fff;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.07);
-  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 

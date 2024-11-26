@@ -70,7 +70,7 @@
       ?>
           <li class="shops-item">
             <a class="shop-link" href="<?php the_permalink(); ?>">
-              <div class="shop-image"><?php the_post_thumbnail('common'); ?></div>
+              <div class="shop-image shop-image-frontpage"><?php the_post_thumbnail('common'); ?></div>
               <div class="shop-body">
                 <!-- ❶タイトル -->
                 <p class="name"><?php the_title(); ?></p>
