@@ -20,17 +20,29 @@
                             $floor_info = get_sub_field('floor_info');
                             $link_btn = get_sub_field('service_detailpage_linkbutton');
                             ?>
-                            <p class="shop-title"><?php echo esc_html($shop_name); ?></p>
-                            <p class="shop-caption"><?php echo esc_html($shop_strength); ?></p>
+                            <!-- 空でない場合は処理 -->
+                            <?php if (!empty($shop_name)): ?>
+                              <p class="shop-title"><?php echo esc_html($shop_name); ?></p>
+                            <?php endif; ?>
+                            <!-- 空でない場合は処理 -->
+                            <?php if (!empty($shop_name)): ?>
+                              <p class="shop-caption"><?php echo esc_html($shop_strength); ?></p>
+                            <?php endif; ?>
                             <div class="shop-detail">
-                              <dl>
-                                <dt><?php echo esc_html($title_one); ?></dt>
-                                <dd><?php echo esc_html($shop_hours); ?></dd>
-                              </dl>
-                              <dl>
-                                <dt><?php echo esc_html($title_two); ?></dt>
-                                <dd><?php echo esc_html($floor_info); ?></dd>
-                              </dl>
+                              <!-- 空でない場合は処理 -->
+                              <?php if (!empty($shop_hours)): ?>
+                                <dl>
+                                  <dt><?php echo esc_html($title_one); ?></dt>
+                                  <dd><?php echo esc_html($shop_hours); ?></dd>
+                                </dl>
+                              <?php endif; ?>
+                              <!-- 空でない場合は処理 -->
+                              <?php if (!empty($floor_info)): ?>
+                                <dl>
+                                  <dt><?php echo esc_html($title_two); ?></dt>
+                                  <dd><?php echo esc_html($floor_info); ?></dd>
+                                </dl>
+                              <?php endif; ?>
                               <br>
                               <br>
                               <!-- リンク先が空でない場合の処理 -->
