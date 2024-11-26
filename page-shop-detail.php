@@ -6,20 +6,23 @@ get_header('contribution');
 ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-shopDetail">
-    <div class="lead-inner">
-      <?php
-      if (have_posts()):
-        while (have_posts()): the_post();
-          the_content();
-        endwhile;
-      endif;
-      ?>
-      <div class="bg-shop"></div>
-    </div>
+
     <div class="shopList-Container">
       <div class="shopList-head">
         <span class="title-en"></span>
-        <h3 class="title">Pick Up</h3>
+        <div>
+          <h3 class="title"><?php the_field('service_detailpage_title'); ?></h3>
+          <br><br>
+          <div>
+            <?php
+            if (have_posts()):
+              while (have_posts()): the_post();
+                the_content();
+              endwhile;
+            endif;
+            ?>
+          </div>
+        </div>
       </div>
       <div class="shopList-inner">
         <ul class="shopList">
