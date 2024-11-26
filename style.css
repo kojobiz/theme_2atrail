@@ -453,7 +453,7 @@ info
 /*****************
 front-page
 *****************/
-.shop-image-frontpage {
+.shop-image-frontpage img {
   width: 100%;
   border-radius: 8px;
 }
