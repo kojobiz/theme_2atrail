@@ -1,5 +1,7 @@
 # theme_2atrail
 
+backgroudn-color:#eff7f4;緑の場合
+
 現行サイト公式 2024/11/25
 
 ## 11/25update
