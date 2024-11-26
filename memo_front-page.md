@@ -45,14 +45,22 @@
 
 
 
-
+    <!----------------------------
+      /////// 記事リストループ処理
+      ----------------------------->
     <ul class="shops">
       <!----------------------------
       /////// 使用するページの要素を取得するphp
       ----------------------------->
       <?php
-      // 記事が続く限り、でも13個まで
-      $shop_pages = get_child_pages(13, $shop_obj->ID);
+      // 公開記事のみ取得するクエリ
+      $shop_pages = new WP_Query(array(
+        'post_type'      => 'page', // 固定ページ
+        'post_parent'    => $shop_obj->ID, // 親ページIDを指定
+        'posts_per_page' => 13, // 最大13件
+        'post_status'    => 'publish' // 公開記事のみ取得
+      ));
+
       if ($shop_pages->have_posts()) :
         while ($shop_pages->have_posts()) : $shop_pages->the_post();
       ?>
@@ -63,7 +71,6 @@
                 <!-- ❶タイトル -->
                 <p class="name"><?php the_title(); ?></p>
                 <!-- 引数：❷ACFのフィールド名 -->
-                <!-- <p class="location"><?php the_field('location'); ?></p> -->
                 <p><?php the_field('location'); ?></p>
                 <div class="buttonBox">
                   <button type="button" class="seeDetail">詳しくは→</button>
