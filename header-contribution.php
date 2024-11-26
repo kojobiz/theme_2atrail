@@ -10,12 +10,15 @@
   <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/favicon.ico" />
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400i" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
   <div class="container">
     <header id="header">
+      <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; margin-top:-8px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</div>
       <div class="header-inner" style="display:flex; flex-direction:column;">
 
         <!-- inner-white -->
@@ -81,47 +84,35 @@
             <button class="toggle-menu js-toggoleNav" style="align-self: center; padding-left: 80px;">
               <span class="toggle-line">メニュー</span>
             </button>
-
-
-
-            <!-- メール -->
-            <!-- <button class="mail">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/icon-mail.png" alt="" srcset="" style="width:80px; height:auto;">
-            </button> -->
           </div>
         </div>
       </div>
   </div>
   </header>
-  <!-- front-page.phpの場合 -->
-  <?php if (is_front_page()): ?>
-    <section class="section-contents" id="keyvisual" style="margin-top: 100px;">
-      <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-02.jpg" alt="">
-      <div class="wrapper">
-        <h1 class="site-caption">コンテナで、かなえる。<br>自由を、つくる。</h1>
-        <img src="https://atrail.co.jp/wp-content/uploads/images/logo-white@2x.png" alt="" srcset="" class="logo-img">
-      </div>
-    </section>
-    <!-- front-page.php以外のphpページの場合 -->
-  <?php else: ?>
-    <div class="wrap">
-      <div id="primary" class="content-area">
-        <main>
-          <div class="page-contents">
-            <div class="page-head">
-              <img src="https://atrail.co.jp/wp-content/uploads/images/bg-page-shop.jpg" alt="">
-
-              <div class="wrapper">
-                <span class="page-title-en"><?php echo get_main_en_title(); ?></span>
-                <h2 class="page-title"><?php echo get_main_title(); ?></h2>
-              </div>
-            </div>
-            <div class="page-container">
-              <div class="bread_crumb">
-                <?php
-                if (function_exists('bcn_display')) {
-                  bcn_display();
-                }
-                ?>
-              </div>
+  <!-- <?php if (is_front_page()): ?>
+  <?php else: ?> -->
+  <div class="wrap">
+    <div id="primary" class="content-area">
+      <main>
+        <div class="page-contents">
+          <div class="page-head">
+            <?php
+            // ページのアイキャッチ画像を取得
+            if (has_post_thumbnail()): ?>
+              <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
             <?php endif; ?>
+
+            <div class="wrapper">
+              <span class="page-title-en"><?php echo get_main_en_title(); ?></span>
+              <h2 class="page-title"><?php echo get_main_title(); ?></h2>
+            </div>
+          </div>
+          <div class="page-container">
+            <div class="bread_crumb">
+              <?php
+              if (function_exists('bcn_display')) {
+                bcn_display();
+              }
+              ?>
+            </div>
+          <?php endif; ?>
