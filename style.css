@@ -2228,7 +2228,7 @@ form
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top:18px;
+  margin-top: 18px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -4116,19 +4116,14 @@ tel {
 }
 
 #shop .shops {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  justify-items: center;
   margin: calc(-147px + 12.6%) auto 0;
-  max-width: 960px;
+  /* max-width: 960px; */
 }
 
 #shop .shops-item {
