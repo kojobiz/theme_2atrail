@@ -44,6 +44,7 @@
     <h2 class="section-title"><?php the_title(); ?></h2>
     <!-- 本文 -->
     <p class="section-lead"><?php echo get_the_excerpt(); ?></p>
+    <br>
     <!-- ❸投稿表示ループ終わりの宣言 -->
     <?php wp_reset_postdata(); ?>
 
@@ -77,7 +78,7 @@
                 <!-- 引数：❷ACFのフィールド名 -->
                 <p><?php the_field('location'); ?></p>
                 <div class="buttonBox">
-                  <button type="button" class="seeDetail">詳しくは→</button>
+                  <button type="button" class="seeDetail">→</button>
                 </div>
               </div>
             </a>
