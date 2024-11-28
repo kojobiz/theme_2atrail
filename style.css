@@ -325,6 +325,20 @@ div + h1 {
 }
 /* ↑bootstrapナビ */
 
+/* ページヒーロー画像 */
+/* background-color:#195338c7; */
+/* #renew .wrapper {
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  width: 20vw;
+  border-radius: 0px 10px 0px 0px;
+  color: #fff;
+  background-color: rgb(25 83 56 / 78%);
+  text-align: left;
+  padding-left: 2%;
+} */
+
 .nav-list {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -500,13 +514,15 @@ company
   align-items: center;
   min-height: 52px;
   height: auto;
-  border-top: 1px solid #9e9e9e;
+  border-top: 1px solid #cbcbcb;
   max-width: 600px;
   margin: 0 auto;
   padding: 0;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 .l-company-table tr:last-child {
-  border-bottom: 1px solid #9e9e9e;
+  border-bottom: 1px solid #cbcbcb;
 }
 .l-company-table tr th {
   flex: 0 0 120px;
@@ -533,7 +549,7 @@ company
 .message-div {
   display: flex;
   flex-direction: row;
-  padding-top: 4% !important;
+  padding-top: 0% !important;
 }
 #message {
   background-color: #e5e5e5;
@@ -4052,7 +4068,7 @@ form
 
 .section-contents .section-title {
   margin-top: 12px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   font-size: 3rem;
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: 400;
@@ -5293,11 +5309,12 @@ input[type="submit"]::after {
 
 /* ぱんくず */
 .bread_crumb {
-  max-width: 960px;
+  /* max-width: 960px; */
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 14px 0;
+  padding: 2px 0;
+  margin: 0 2% !important;
 }
 .bread_crumb span {
   font-size: 14px;

@@ -2,47 +2,14 @@
 /*
 Template Name: company
 */
-get_header('test');
+get_header('com');
 ?>
-<!-- 代表挨拶 -->
-<section class="section-contents" id="message">
-  <div class="wrapper maxw100vw">
-    <span class="section-title-en"></span>
-    <h2 class="section-title message-title">代表挨拶</h2>
-    <div class="message-div">
-      <div>
-        <h3>区内を中心に、多様なエリアの不動産に対応できる柔軟な体制を整えています</h3>
-        <hr>
-        <p style="text-align:left;">不動産に関する豊富な経験を基に、大阪市や豊中市、尼崎市などの幅広いエリアにおける不動産売却等をトータルサポートしております。これまでに培ってきた経験や知識を活かしながら更なる成長と発展を遂げられるように精進を重ね、新大阪駅近くという立地条件を活かしながら、淀川区から対応エリアを広げています。同時に、お客様との信頼関係を築くことを怠らず、不動産に関するお悩み事について細やかにヒアリングしたうえで、一人ひとりのお気持ちに寄り添ったご提案をいたします。安心して売却をお任せいただける誠実かつ丁寧なサービスがこだわりです。<br><br>アトレイル株式会社<br>代表取締役 西田 博</p>
-      </div>
-      <!-- <img src="https://atrail.co.jp/wp-content/uploads/images/message-img01@2x.jpg" alt="" class="message-img"> -->
-    </div>
-  </div>
-  </div>
-</section>
-<!-- <section class="section-contents" id="message">
-  <div class="wrapper maxw100vw">
-    <span class="section-title-en"></span>
-    <h2 class="section-title message-title">代表挨拶</h2>
-    <div class="message-div">
-      <div>
-        <h3>「暮らしに自由を」<br>それが私たちのコミットメントです。</h3>
-        <hr>
-        <p style="text-align:left;">コンテナに興味をお持ちいただきありがとうございます。<br>長年大手ハスメーカーに従事、暮らし・建設設計・土地活用についてのノウハウを活かしながら<br>「お客様の夢とこだわりをもっと叶えやすく、もっと沢山の人へ喜びを届けたい」<br>その想いでアトレイルを立ち上げました。<br>夢が叶った時のお客様の喜びには私たちも胸が熱くなります。世界に１つだけのこだわりのライフスタイル、ジョブスタイル、色々なスタイルをご相談ください。素敵な時間を過ごすための空間を、アトレイルチームが共に一丸となりカタチにいたします。<br><br>アトレイル株式会社<br>代表取締役 西田 博</p>
-      </div>
-      <img src="https://atrail.co.jp/wp-content/uploads/images/message-img01@2x.jpg" alt="" class="message-img">
-    </div>
-  </div>
-  </div>
-</section> -->
 
 <!-- 会社概要 -->
 <section class="section-contents" id="company-about">
   <div class="wrapper maxw600">
-    <span class="section-title-en"></span>
-    <h2 class="section-title" style="margin-bottom:30px;">アクセス</h2>
     <div class="l-company-table">
-      <table style="margin-top:4%!important;">
+      <table style="margin-top:4%!important; margin-bottom: 4%!important;">
         <tr>
           <th>社名</th>
           <td>アトレイル株式会社</td>
@@ -71,16 +38,26 @@ get_header('test');
         </tr>
       </table>
     </div>
-  </div>
-</section>
-<!-- アクセス -->
-<section class="section-contents" id="access">
-  <div class="wrapper maxw100vw">
-    <span class="section-title-en"></span>
-    <h2 class="section-title" style="margin-bottom:30px;">アクセス</h2>
+    <!-- map -->
     <div class="access-div">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6557.781500701219!2d135.5037595162928!3d34.73314807862588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e43c4ae64119%3A0x40d6896f8eb02547!2z44CSNTMzLTAwMzMg5aSn6Ziq5bqc5aSn6Ziq5biC5p2x5reA5bed5Yy65p2x5Lit5bO277yR5LiB55uu77yS77yR4oiS77yTIOOCt-ODo-ODiOODvOeZvee-jg!5e0!3m2!1sja!2sjp!4v1724657005091!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
+<!-- 代表挨拶 -->
+<section class="section-contents" id="message" style="background-color: #f8f9fa!important;">
+  <div class="wrapper maxw100vw">
+    <span class="section-title-en"></span>
+    <h2 class="section-title message-title">前向きな暮らしのために</h2>
+    <div class="message-div">
+      <div>
+        <h3>区内を中心に、多様なエリアの不動産に対応できる柔軟な体制を整えています</h3>
+        <hr>
+        <p style="text-align:left;">不動産に関する豊富な経験を基に、大阪市や豊中市、尼崎市などの幅広いエリアにおける不動産売却等をトータルサポートしております。これまでに培ってきた経験や知識を活かしながら更なる成長と発展を遂げられるように精進を重ね、新大阪駅近くという立地条件を活かしながら、淀川区から対応エリアを広げています。同時に、お客様との信頼関係を築くことを怠らず、不動産に関するお悩み事について細やかにヒアリングしたうえで、一人ひとりのお気持ちに寄り添ったご提案をいたします。安心して売却をお任せいただける誠実かつ丁寧なサービスがこだわりです。<br>お気軽にご相談ください。<br><br>アトレイル株式会社<br>代表取締役 西田 博</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
 <?php get_footer(); ?>
