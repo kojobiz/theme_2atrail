@@ -225,7 +225,7 @@ function get_main_en_title()
 {
 	if (is_category()) :
 		$term_obj = get_queried_object();
-		
+
 		// カテゴリースラッグに基づいて 'news' や 'work' を返す
 		if ($term_obj->slug === 'info') {
 			return 'news';

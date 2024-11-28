@@ -16,103 +16,87 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <!-- test -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!--  aria-controls="navbarSupportedContent"　data-target="#navbarSupportedContent"  -->
-        <a class="navbar-brand" href="#">アトレイル</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- id="navbarSupportedContent -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">メニュー１<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">メニュー２</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        メニュー３
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+    <header id="header" style="padding-top: 0px!important;">
+        <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; margin-top:-8px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら<br>経験豊富なアトレイルにお任せください。</div>
+        <div class="header-inner" style="display:flex; flex-direction:column;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!--  aria-controls="navbarSupportedContent"　data-target="#navbarSupportedContent"  -->
+                <a class="navbar-brand" href="#">アトレイル</a>
+                <form class="row align-items-center gx-3">
+                    <div class="col-auto">
+                        <button class="btn btn-light mr3" type="button">電話こちら</button>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">メニュー４</a>
-                </li>
-            </ul>
-            <form class="row align-items-center gx-3">
-                <div class="col-auto">
-                    <button class="btn btn-light mr3" type="button">電話こちら</button>
-                </div>
-                <div class="col-auto">
-                    <button class="btn btn-light mr3" type="button">問い合わせはこちら</button>
-                </div>
-            </form>
-        </div>
-    </nav>
-    <!-- test・ -->
+                    <div class="col-auto">
+                        <button class="btn btn-light mr3" type="button">問い合わせはこちら</button>
+                    </div>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
 
+                <!-- オフキャンバスメニュー -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav jusify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">事業案内</a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li class="dropdown-item">
+                                        <h2>売却査定</h2>
+                                    </li>
+                                    <li><a href="#" class="dropdown-item">物件や土地</a></li>
+                                    <li><a href="#" class="dropdown-item">空き家</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <h2>売却ご相談</h2>
+                                    </li>
+                                    <li><a href="#" class="dropdown-item">投資物件</a></li>
+                                    <li><a href="#" class="dropdown-item">相続財産</a></li>
+                                    <li><a href="#" class="dropdown-item">財産分与</a></li>
+                                    <li><a href="#" class="dropdown-item">ローン・任意売却</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <h2>活用ご相談</h2>
+                                    </li>
+                                    <li><a href="#" class="dropdown-item">駐車場</a></li>
+                                    <li><a href="#" class="dropdown-item">土地</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <h2>その他</h2>
+                                    </li>
+                                    <li><a href="#" class="dropdown-item">自社買取サービス</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active" aria-current="page">コンセプト</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">会社案内</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">お知らせ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">プライバシーポリシー</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
 
+                </div>
+            </nav>
+            <!-- test・ -->
     </header>
-    <!-- front-page.phpの場合 -->
-    <?php if (is_front_page()): ?>
-        <section class="section-contents" id="keyvisual" style="margin-top: 100px;">
-            <!-- カルーセル -->
-            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel" style="position: relative;">
-                <div>
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-01.webp" class="d-block w-100" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-02.webp" class="d-block w-100" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-03.webp" class="d-block w-100" alt="Third slide">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <!-- front-page.php以外のphpページの場合 -->
-    <?php else: ?>
-        <div class="wrap">
-            <div id="primary" class="content-area">
-                <main>
-                    <div class="page-contents">
-                        <div class="page-head">
-                            <?php echo get_main_image(); ?>
-
-                            <div class="wrapper">
-                                <span class="page-title-en"><?php echo get_main_en_title(); ?></span>
-                                <h2 class="page-title"><?php echo get_main_title(); ?></h2>
-                            </div>
-                        </div>
-                        <div class="page-container">
-                            <div class="bread_crumb">
-                                <?php
-                                if (function_exists('bcn_display')) {
-                                    bcn_display();
-                                }
-                                ?>
-                            </div>
-                        <?php endif; ?>
