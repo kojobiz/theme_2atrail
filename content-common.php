@@ -7,8 +7,10 @@
         <!-- <p class="caption"><?php echo get_flexible_excerpt(30); ?></p> -->
         <p class="caption"><?php echo wp_trim_words(get_the_excerpt(), 30, ''); ?></p>
         <div class="buttonBox">
-          <button type="button" class="seeDetail">詳しくは→</button>
+          <button type="button" class="seeDetail">→</button>
         </div>
       </div>
     </a>
   </li>
+
+  

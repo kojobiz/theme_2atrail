@@ -455,7 +455,7 @@ front-page
 *****************/
 .shop-image-frontpage img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 /*****************
@@ -4130,7 +4130,7 @@ tel {
   -ms-flex-pack: justify;
   justify-content: space-between;
   justify-items: center;
-  gap: 40px;
+  gap: 90px!important;
   /* margin: calc(-147px + 12.6%) auto 0; */
   /* max-width: 960px; */
 }
