@@ -19,20 +19,10 @@
     <header id="header" style="padding-top: 0px!important;">
         <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; margin-top:-8px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら<br>経験豊富なアトレイルにお任せください。</div>
         <div class="header-inner" style="display:flex; flex-direction:column;">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%;">
                 <!--  aria-controls="navbarSupportedContent"　data-target="#navbarSupportedContent"  -->
                 <a class="navbar-brand" href="#">アトレイル</a>
-                <form class="row align-items-center gx-3">
-                    <div class="col-auto">
-                        <button class="btn btn-light mr3" type="button">電話こちら</button>
-                    </div>
-                    <div class="col-auto">
-                        <button class="btn btn-light mr3" type="button">問い合わせはこちら</button>
-                    </div>
-                </form>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
                 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button> -->
@@ -40,7 +30,7 @@
                 <!-- オフキャンバスメニュー -->
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</h5>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">大阪市淀川区の不動産のことなら<br>経験豊富なアトレイルにお任せください。</h5>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -93,10 +83,28 @@
                                 <a href="#" class="nav-link">プライバシーポリシー</a>
                             </li>
                         </ul>
+                        <form id="form-offcanvas" class="row align-items-center gx-3">
+                            <div class="col-auto">
+                                <button class="btn btn-light mr3" type="button">電話こちら</button>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-light mr3" type="button">問い合わせはこちら</button>
+                            </div>
+                        </form>
                     </div>
-                    
 
                 </div>
+                <form id="form-desktop" class="row align-items-center gx-3">
+                    <div class="col-auto">
+                        <button class="btn btn-light mr3" type="button">電話こちら</button>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-light mr3" type="button">問い合わせはこちら</button>
+                    </div>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </nav>
             <!-- test・ -->
     </header>

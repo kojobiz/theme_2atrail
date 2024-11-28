@@ -301,6 +301,26 @@ div + h1 {
 /* *************
 ナビゲーション
 *************** */
+/* bootstrapナビ */
+#form-offcanvas {
+  display: block;
+}
+
+/* PC表示（768px以上）ではオフキャンバス内フォームを非表示 */
+@media (min-width: 768px) {
+  #form-offcanvas {
+    display: none;
+  }
+}
+
+/* スマホ表示（768px未満）では外のフォームを非表示 */
+@media (max-width: 767px) {
+  #form-desktop {
+    display: none;
+  }
+}
+/* ↑bootstrapナビ */
+
 .nav-list {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -1675,10 +1695,6 @@ form
   flex-grow: 1;
   margin-top: 22px;
   font-size: 1.6rem;
-}
-
-.article-body {
-  /* 繝ｯ繝ｼ繝峨�繝ｬ繧ｹ縺ｮ逕滓�繝��繧ｿ繧呈Φ螳� */
 }
 
 .article-body .article-inner > *:first-child {
@@ -4130,7 +4146,7 @@ tel {
   -ms-flex-pack: justify;
   justify-content: space-between;
   justify-items: center;
-  gap: 90px!important;
+  gap: 90px !important;
   /* margin: calc(-147px + 12.6%) auto 0; */
   /* max-width: 960px; */
 }
