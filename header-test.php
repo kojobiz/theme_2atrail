@@ -17,16 +17,14 @@
 
 <body <?php body_class(); ?>>
     <header id="header" style="padding-top: 0px!important;">
-        <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; margin-top:-8px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら<br>経験豊富なアトレイルにお任せください。</div>
-        <div class="header-inner" style="display:flex; flex-direction:column;">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%;">
-                <!--  aria-controls="navbarSupportedContent"　data-target="#navbarSupportedContent"  -->
-                <a class="navbar-brand" href="#">アトレイル</a>
-
-                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-
+        <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</div>
+        <div class="header-inner" style="display:flex; flex-direction:column; margin-top: 0px!important;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%; padding: 0px 2%;">
+                <h1>
+                    <a class="navbar-brand" href="<?php echo esc_url(home_url('')); ?>">
+                        <img src="https://atrail.co.jp/wp-content/uploads/images/logo2.webp" alt="" width="auto" height="34px" style="height: 34px!important;">
+                    </a>
+                </h1>
                 <!-- オフキャンバスメニュー -->
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
@@ -35,52 +33,17 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav jusify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">事業案内</a>
-                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                    <li class="dropdown-item">
-                                        <h2>売却査定</h2>
-                                    </li>
-                                    <li><a href="#" class="dropdown-item">物件や土地</a></li>
-                                    <li><a href="#" class="dropdown-item">空き家</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <h2>売却ご相談</h2>
-                                    </li>
-                                    <li><a href="#" class="dropdown-item">投資物件</a></li>
-                                    <li><a href="#" class="dropdown-item">相続財産</a></li>
-                                    <li><a href="#" class="dropdown-item">財産分与</a></li>
-                                    <li><a href="#" class="dropdown-item">ローン・任意売却</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <h2>活用ご相談</h2>
-                                    </li>
-                                    <li><a href="#" class="dropdown-item">駐車場</a></li>
-                                    <li><a href="#" class="dropdown-item">土地</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <h2>その他</h2>
-                                    </li>
-                                    <li><a href="#" class="dropdown-item">自社買取サービス</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a href="<?php echo esc_url(home_url('service')); ?>" class="nav-link">事業内容</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link active" aria-current="page">コンセプト</a>
+                                <a href="<?php echo esc_url(home_url('work')); ?>" class="nav-link">ギャラリー</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">会社案内</a>
+                                <a href="<?php echo esc_url(home_url('company')); ?>" class="nav-link">会社概要</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">お知らせ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">プライバシーポリシー</a>
+                                <a href="<?php echo esc_url(home_url('/category/info/')); ?>" class="nav-link">お知らせ</a>
                             </li>
                         </ul>
                         <form id="form-offcanvas" class="row align-items-center gx-3">
@@ -92,14 +55,19 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
                 <form id="form-desktop" class="row align-items-center gx-3">
                     <div class="col-auto">
-                        <button class="btn btn-light mr3" type="button">電話こちら</button>
+                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center;">
+                            <a href="tel:+06-6379-3018">
+                                <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
+                            </a>06-6379-3018</button>
                     </div>
                     <div class="col-auto">
-                        <button class="btn btn-light mr3" type="button">問い合わせはこちら</button>
+                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center;">
+                            <a href="<?php echo esc_url(home_url('contact')); ?>">
+                                <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
+                            </a>お問い合わせ</button>
                     </div>
                 </form>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

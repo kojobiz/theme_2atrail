@@ -12,11 +12,17 @@ wordpress 管理画面で page-service に当たる固定ページの編集、�
 
 homeoffice 連携
 
-##　すりガラスCSS　https://css.glass/
-/* From https://css.glass */
+##　すりガラス CSS 　https://css.glass/
+/_ From https://css.glass _/
 background: rgba(255, 255, 255, 0.14);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(3.3px);
 -webkit-backdrop-filter: blur(3.3px);
 border: 1px solid rgba(255, 255, 255, 0.03);
+
+## ボタンや遷移先
+
+<!-- <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('work')); ?>';">
+        <?php echo $contribution_title; ?>一覧を見る
+      </button> -->

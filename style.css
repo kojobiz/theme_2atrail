@@ -311,6 +311,10 @@ div + h1 {
   #form-offcanvas {
     display: none;
   }
+  .navbar-expand-lg .navbar-nav {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
 }
 
 /* スマホ表示（768px未満）では外のフォームを非表示 */
