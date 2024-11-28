@@ -24,7 +24,7 @@ get_header('contribution');
           </div>
         </div>
       </div>
-      <div class="shopList-inner">
+      <div class="shopList-inner" style="padding-bottom:0px!important;">
         <ul class="shopList">
           <?php
           $shops = array('first_shop_detail', 'second_shop_detail');
@@ -41,4 +41,11 @@ get_header('contribution');
     </div>
   </div>
 </div>
+<div class="section-buttons" style="display:flex; justify-content:center; padding-bottom:40px;">
+      <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('service')); ?>';">
+      <?php echo $shop_title; ?>事業案内に戻る
+      </button>
+</div>
+<br>
+<br>
 <?php get_footer(); ?>
