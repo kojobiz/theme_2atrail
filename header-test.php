@@ -16,10 +16,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <header id="header" style="padding-top: 0px!important;">
+    <header id="header" style="padding-top: 0px!important; height: 85px;">
         <div style="text-align:center; width:100%; background-color:#005e31; height:33px; color:white; font-size:10px; display:flex; justify-content:center; align-items:center;">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</div>
         <div class="header-inner" style="display:flex; flex-direction:column; margin-top: 0px!important;">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%; padding: 0px 2%;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%; padding: 5px 2%;">
                 <h1>
                     <a class="navbar-brand" href="<?php echo esc_url(home_url('')); ?>">
                         <img src="https://atrail.co.jp/wp-content/uploads/images/logo2.webp" alt="" width="auto" height="34px" style="height: 34px!important;">
@@ -58,13 +58,13 @@
                 </div>
                 <form id="form-desktop" class="row align-items-center gx-3">
                     <div class="col-auto">
-                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center;">
+                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323;">
                             <a href="tel:+06-6379-3018">
                                 <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
                             </a>06-6379-3018</button>
                     </div>
                     <div class="col-auto">
-                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center;">
+                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323;">
                             <a href="<?php echo esc_url(home_url('contact')); ?>">
                                 <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
                             </a>お問い合わせ</button>
@@ -74,5 +74,4 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
-            <!-- test・ -->
     </header>
