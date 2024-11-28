@@ -47,11 +47,19 @@
                             </li>
                         </ul>
                         <form id="form-offcanvas" class="row align-items-center gx-3">
-                            <div class="col-auto">
-                                <button class="btn btn-light mr3" type="button">電話こちら</button>
-                            </div>
-                            <div class="col-auto">
-                                <button class="btn btn-light mr3" type="button">問い合わせはこちら</button>
+                            <div>
+                                <div class="col-auto" style="width: 155px;">
+                                    <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: center;">
+                                        <a href="tel:+06-6379-3018">
+                                            <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
+                                        </a>06-6379-3018</button>
+                                </div>
+                                <div class="col-auto" style="width: 155px;">
+                                    <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: center;">
+                                        <a href="<?php echo esc_url(home_url('contact')); ?>">
+                                            <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
+                                        </a>お問い合わせ</button>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -70,7 +78,7 @@
                             </a>お問い合わせ</button>
                     </div>
                 </form>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border: none;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
