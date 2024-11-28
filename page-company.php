@@ -2,7 +2,7 @@
 /*
 Template Name: company
 */
-get_header('company');
+get_header('test');
 ?>
 <!-- 代表挨拶 -->
 <section class="section-contents" id="message">
