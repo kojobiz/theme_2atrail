@@ -90,6 +90,8 @@
       endif;
       ?>
     </ul> <!--ulここまで-->
+    <br>
+    <br>
     <div class="section-buttons">
       <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('service')); ?>';">
         <?php echo $shop_title; ?>一覧を見る
