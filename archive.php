@@ -1,4 +1,4 @@
-<?php get_header('com'); ?>
+<?php get_header('house'); ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-news">
     <div class="main-container">
