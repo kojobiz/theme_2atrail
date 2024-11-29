@@ -4857,7 +4857,7 @@ tel {
   right: 0;
   bottom: 0;
   background: -webkit-linear-gradient(left, #127dd6, #4ec9e5);
-  background: linear-gradient(to right, #198754, #007bf7);
+  background: linear-gradient(to right, #198754, #007bf7) !important;
   z-index: -1;
   opacity: 0;
   -webkit-transition: all 0.3s ease 0.2s;

@@ -65,7 +65,7 @@ get_header('com');
     <span class="section-title-en"></span>
     <h2 class="section-title message-title">プライバシーポリシー</h2>
     <div class="message-div">
-      <p>
+      <p style="text-align: left;">
         アトレイル株式会社（以下「当社」）は、以下の通り個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取り組みを徹底させることにより、個人情報の保護を推進いたします。
 
         <br><br>個人情報の管理<br>
