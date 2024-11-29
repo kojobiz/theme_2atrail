@@ -106,46 +106,39 @@
 <!----------------------------------
         gallery
 ----------------------------------->
-<section class="l-gallery-section">
-  <ul class="l-section-inner l-section-inner-plf--20px l-gallery-section-inner">
-    <li class="l-gallery">
-      <img src="https://atrail.co.jp/wp-content/uploads/images/container-01@2x.jpg" alt="" srcset="">
-      <p class="sp-pb50">私たちは、暮らしに自由を感じ、理想の住まいを見つけるお手伝いを致します。
-        自由な発見、広がる空間、理想の暮らし。それが私たちの約束です。豊富な物件ラインナップと専門的な知識を持ち、お客様の夢を形にします。自分らしいライフスタイルを見つけましょう。
-        ご要望に合わせて柔軟なプランを提供し、理想の住まいに出会えるよう努めます。未来の住まいに、自由な可能性を感じさせる物件がきっと見つかります。新しい一歩を踏み出すなら、私たちにおかませください。自由な未来、理想の住まいを一緒に見つけましょう。「暮らしに自由を」、それが私たちのコミットメントです。</p>
-    </li>
-    <li class="l-gallery">
-      <img src="https://atrail.co.jp/wp-content/uploads/images/container-02@2x.jpg" alt="" srcset="">
-      <p class="sp-pb50">コンテナハウスは、船舶やトラックで輸送されるためのコンテナを再利用して建設された住宅や建築物の形態です。持続可能でコスト効率が高く、迅速に建設できる選択肢として注目されています。
-        1. コスト効率 : 新しい建材を使用するよりも比較的低コストです。
-        2. 迅速な建設 : 短期間で住宅や建築物を完成させることが可能です。 􀀃. モジュール性と拡張性 : コンテナは標準化されておりモジュールとして簡単に組み立てられ、柔軟なプランニングが可能です。
-        3. 耐久性と強度 : コンテナは非常に強固で耐久性があります。これによ
-        り、地震や自然災害に対する強い耐性を持っています。
-        4. 移動可能性 : コンテナハウスは基本的に移動可能で、様々な場所で
-        利用でき、移動型住宅や仮設施設としての利用が可能です。
-        5. 現代的なデザイン : モダンで洗練された外観を持って独自のスタイリッシュなデザインを実現できます。
-      </p>
-    </li>
-    <li class="l-gallery">
-      <img src="https://atrail.co.jp/wp-content/uploads/images/container-01@2x.jpg" alt="" srcset="">
-      <p class="sp-pb50">私たちは、暮らしに自由を感じ、理想の住まいを見つけるお手伝いを致します。
-        自由な発見、広がる空間、理想の暮らし。それが私たちの約束です。豊富な物件ラインナップと専門的な知識を持ち、お客様の夢を形にします。自分らしいライフスタイルを見つけましょう。
-        ご要望に合わせて柔軟なプランを提供し、理想の住まいに出会えるよう努めます。未来の住まいに、自由な可能性を感じさせる物件がきっと見つかります。新しい一歩を踏み出すなら、私たちにお任せください。自由な未来、理想の住まいを一緒に見つけましょう。「暮らしに自由を」、それが私たちのコミットメントです。</p>
-    </li>
-    <li class="l-gallery">
-      <img src="https://atrail.co.jp/wp-content/uploads/images/container-02@2x.jpg" alt="" srcset="">
-      <p class="sp-pb50">コンテナハウスは、船舶やトラックで輸送されるためのコンテナを再利用して建設された住宅や建築物の形態です。持続可能でコスト効率が高く、迅速に建設できる選択肢として注目されています。
-        1. コスト効率 : 新しい建材を使用するよりも比較的低コストです。
-        2. 迅速な建設 : 短期間で住宅や建築物を完成させることが可能です。 􀀃. モジュール性と拡張性 : コンテナは標準化されておりモジュールとして簡単に組み立てられ、柔軟なプランニングが可能です。
-        3. 耐久性と強度 : コンテナは非常に強固で耐久性があります。これによ
-        り、地震や自然災害に対する強い耐性を持っています。
-        4. 移動可能性 : コンテナハウスは基本的に移動可能で、様々な場所で
-        利用でき、移動型住宅や仮設施設としての利用が可能です。
-        5. 現代的なデザイン : モダンで洗練された外観を持って独自のスタイリッシュなデザインを実現できます。
-      </p>
-    </li>
-  </ul>
+<section class="section-contents" id="contribution">
+  <div class="wrapper">
+    <h2 class="section-title">売主様の想いに寄り添う不動産サービス</h2>
+    <p class="section-lead">どのような不動産売却についても細やかに対応いたします/p>
+    <section class="l-gallery-section">
+      <ul class="l-section-inner l-section-inner-plf--20px l-gallery-section-inner">
+        <li class="l-gallery">
+          <div style="position: relative;">
+            <img src="https://atrail.co.jp/wp-content/uploads/images/bg-section-company.webp" alt="" srcset="" style="border-radius: 8px;">
+            <div style="display: flex; flex-direction: column; background-color: #198754; border-radius: 90px; width: 90px; height: 90px; justify-content: center; align-items: center; position: absolute; bottom: -3%; left: -6%;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16" style="width: 35%; height: 35%; color: white;">
+                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+              </svg>
+              <p style="font-size: 11px; color: white;">サポート体制</p>
+            </div>
+          </div>
+          <p class="sp-pb50" style="padding-top: 20px!important;">居住用の不動産に限らず、駐車場や投資用マンション、工場といった多岐にわたる物件を取り扱うことで、これまでに多くの実績を積み重ねております。仲介をメインに、買取も含めて不動産の売買を幅広く承るなかで、相続関連やローン関係などにも臨機応変に対応する知識を培ってまいりました。確かな経験に基づく柔軟なご提案により、それぞれのお考えを踏まえた円滑な取引をサポートいたします。<br>
+            <br>単に物件の状態や立地条件、相場などに合わせて不動産売却を進めるのではなく、売主様の物件に対する想いや思い出もしっかりと受け取ったうえで次の方(買主様)に引き継いでいけるように努めております。淀川区を中心に様々な地域の不動産についてご相談を承るなかで、売主様に寄り添い、それぞれの現状に合わせた不動産サービスを追求してまいります。
+          </p>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <br>
+  <br>
+  <div class="section-buttons">
+    <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('service')); ?>';">
+      <?php echo $shop_title; ?>一覧を見る
+    </button>
+  </div>
+
 </section>
+
 
 <!-- 施工事例ここから -->
 <section class="section-contents" id="contribution">

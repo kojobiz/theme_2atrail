@@ -267,25 +267,26 @@ div + h1 {
 .l-gallery-section {
   display: flex;
   justify-content: center;
-  margin: 0 20px;
+  margin: 30px 20px;
 }
 
 .l-gallery-section-inner {
-  max-width: 900px;
+  /* max-width: 900px; */
 }
 .l-gallery-section .l-gallery {
-  max-width: 860px;
+  /* max-width: 860px; */
   height: auto;
-  display: grid;
+  /* display: grid; */
   justify-items: stretch;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  /* grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: auto; */
 }
 .l-gallery-section .l-gallery img {
   max-width: 100%;
+  border-radius: 8px;
 }
-.l-gallery-section .l-gallery:nth-child(even) {
+/* .l-gallery-section .l-gallery:nth-child(even) {
   grid-template-columns: 1fr 1fr;
 }
 .l-gallery-section .l-gallery:nth-child(even) img {
@@ -296,7 +297,7 @@ div + h1 {
 }
 .l-gallery-section ul li + li {
   padding-top: 20px;
-}
+} */
 
 /* *************
 ナビゲーション
@@ -4197,6 +4198,10 @@ tel {
 
 #shop .shops-item .shop-body .name {
   font-size: 1.8rem;
+  font-weight: bold;
+}
+#shop .shops-item .shop-body .name:hover {
+  color: #198754;
 }
 
 #shop .shops-item .shop-body .location {
