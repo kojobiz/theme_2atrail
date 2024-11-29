@@ -308,7 +308,7 @@
                     ?>
                   </div><!-- タクソノミー終了 -->
                   <div class="buttonBox">
-                    <button type="button" class="seeDetail">詳しくは→</button>
+                    <button type="button" class="seeDetail">→</button>
                   </div>
                 </div>
               </div>

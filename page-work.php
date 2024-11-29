@@ -9,7 +9,7 @@ get_header('building');
     <div class="shopList-Container" style="margin-top: 0px!important; padding-top:90px!important;">
       <div class="shopList-head">
         <span class="title-en"></span>
-        <h2 class="title" style="font-size:clamp(16px, 2vw, 30px)!important;">HOUSE / SHOP / OFFICE / GARAGE</h2>
+        <h2 class="title" style="font-size:clamp(16px, 2vw, 30px)!important;">どのような案件でも丁寧にご対応いたします</h2>
       </div>
       <!-- 事例セクション -->
       <section class="section-contents" id="work">

@@ -2,7 +2,7 @@
 /*
 Template Name: 店舗詳細
 */
-get_header('contribution');
+get_header('com');
 ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-shopDetail">
@@ -42,9 +42,9 @@ get_header('contribution');
   </div>
 </div>
 <div class="section-buttons" style="display:flex; justify-content:center; padding-bottom:40px;">
-      <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('service')); ?>';">
-      <?php echo $shop_title; ?>事業案内に戻る
-      </button>
+  <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('service')); ?>';">
+    <?php echo $shop_title; ?>事業案内に戻る
+  </button>
 </div>
 <br>
 <br>
