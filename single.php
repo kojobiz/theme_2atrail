@@ -1,4 +1,4 @@
-<?php get_header('com'); ?>
+<?php get_header('nonimage'); ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-newsDetail">
     <div class="main-container">

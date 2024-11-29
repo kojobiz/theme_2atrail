@@ -1,8 +1,8 @@
 <?php
 /*
-Template Name: 施工事例
+Template Name: ギャラリー
 */
-get_header('contribution');
+get_header('building');
 ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-shopDetail">
