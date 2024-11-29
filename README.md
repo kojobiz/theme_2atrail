@@ -10,7 +10,7 @@ wordpress 管理画面で page-service に当たる固定ページの編集、�
 
 ## 11/26update
 
-homeoffice 連携
+homeoffice 連携、header-shop を header-con に変更したりと。
 
 ##　すりガラス CSS 　https://css.glass/
 /_ From https://css.glass _/

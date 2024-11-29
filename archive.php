@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('com'); ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-news">
     <div class="main-container">

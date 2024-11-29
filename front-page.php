@@ -13,6 +13,81 @@
   </div> -->
 
 
+<!-- お知らせ -->
+<section class="section-contents" id="info">
+  <div class="wrapper maxw600">
+    <?php $term_obj = get_term_by('slug', 'info', 'category'); ?>
+
+    <div class="page-inner full-width">
+      <div class="page-main" id="pg-news">
+        <div class="main-container">
+          <div class="main-wrapper">
+            <ul class="newsLists">
+              <?php
+              // 投稿を3件取得するクエリ
+              $args = array(
+                'post_type'      => 'post', // 投稿タイプ
+                'posts_per_page' => 3,      // 取得する投稿の数
+                'orderby'        => 'date',      // 日付順で並び替え
+                'order'          => 'DESC',
+              );
+              $news_posts = new WP_Query($args);
+
+              if ($news_posts->have_posts()):
+                while ($news_posts->have_posts()): $news_posts->the_post();
+              ?>
+                  <li class="news-list">
+                    <a class="news-link" href="<?php the_permalink(); ?>">
+                      <span class="news-body release" style="color: #949494;"><?php the_time('Y.m.d'); ?></span>
+                      <span class="news-category <?php
+                                                  $categories = get_the_category();
+                                                  if (! empty($categories)) {
+                                                    foreach ($categories as $category) {
+                                                      echo esc_html($category->slug) . ' '; // 全てのカテゴリスラッグをクラスに追加
+                                                    }
+                                                  }
+                                                  ?>">
+                        <?php
+                        if (! empty($categories)) {
+                          foreach ($categories as $category) {
+                            echo esc_html($category->name) . ' '; // カテゴリ名をスペース区切りで表示
+                          }
+                        }
+                        ?>
+                      </span>
+                      <p class="title"><?php the_title(); ?></p>
+                      </span>
+                    </a>
+                  </li>
+              <?php
+                endwhile;
+                wp_reset_postdata();
+              endif;
+              ?>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pager">
+      <ul class="pagerList">
+        <?php
+        // ページナビゲーションの表示
+        page_navi();
+        ?>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-buttons" style="margin-top: 0px!important;">
+    <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(get_term_link($term_obj)); ?>';">
+      <?php echo $term_obj->name; ?>一覧を見る
+    </button>
+  </div>
+</section>
+
+
 
 
 <!-- ------------------------------
@@ -99,7 +174,6 @@
     </div>
   </div>
 </section>
-
 
 
 
@@ -267,82 +341,7 @@
 </section>
 
 
-<!-- お知らせ -->
-<section class="section-contents" id="info">
-  <div class="wrapper maxw600">
-    <?php $term_obj = get_term_by('slug', 'info', 'category'); ?>
-    <span class="section-title-en"><?php the_field('english_title'); ?></span>
-    <h2 class="section-title"><?php echo $term_obj->name; ?></h2>
-    <p class="section-lead"><?php echo $term_obj->description; ?></p>
 
-    <div class="page-inner full-width">
-      <div class="page-main" id="pg-news">
-        <div class="main-container">
-          <div class="main-wrapper">
-            <ul class="newsLists">
-              <?php
-              // 投稿を4件取得するクエリ
-              $args = array(
-                'post_type'      => 'post', // 投稿タイプ
-                'posts_per_page' => 4,      // 取得する投稿の数
-                'orderby'        => 'date',      // 日付順で並び替え
-                'order'          => 'DESC',
-              );
-              $news_posts = new WP_Query($args);
-
-              if ($news_posts->have_posts()):
-                while ($news_posts->have_posts()): $news_posts->the_post();
-              ?>
-                  <li class="news-list">
-                    <a class="news-link" href="<?php the_permalink(); ?>">
-                      <span class="news-body release" style="color: #949494;"><?php the_time('Y.m.d'); ?></span>
-                      <span class="news-category <?php
-                                                  $categories = get_the_category();
-                                                  if (! empty($categories)) {
-                                                    foreach ($categories as $category) {
-                                                      echo esc_html($category->slug) . ' '; // 全てのカテゴリスラッグをクラスに追加
-                                                    }
-                                                  }
-                                                  ?>">
-                        <?php
-                        if (! empty($categories)) {
-                          foreach ($categories as $category) {
-                            echo esc_html($category->name) . ' '; // カテゴリ名をスペース区切りで表示
-                          }
-                        }
-                        ?>
-                      </span>
-                      <p class="title"><?php the_title(); ?></p>
-                      </span>
-                    </a>
-                  </li>
-              <?php
-                endwhile;
-                wp_reset_postdata();
-              endif;
-              ?>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pager">
-      <ul class="pagerList">
-        <?php
-        // ページナビゲーションの表示
-        page_navi();
-        ?>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section-buttons">
-    <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(get_term_link($term_obj)); ?>';">
-      <?php echo $term_obj->name; ?>一覧を見る
-    </button>
-  </div>
-</section>
 
 
 <!-- 会社概要 -->

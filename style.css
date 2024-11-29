@@ -3119,22 +3119,22 @@ input[type="submit"] {
   margin: 0px 33px 0px 14px !important;
 }
 .news-category.info {
-  background-color: #5194d3;
+  background-color: #198754;
   color: #fff;
 }
 
 .news-category.work {
-  background-color: #39a39a;
+  background-color: #198754;
   color: #fff;
 }
 
 .news-category.press {
-  background-color: #dd6076;
+  background-color: #198754;
   color: #fff;
 }
 
 .news-category.event {
-  background-color: #f29d6e;
+  background-color: #198754;
   color: #fff;
 }
 .news-list {
@@ -4846,6 +4846,7 @@ tel {
   -webkit-transition: all 0.3s ease 0.2s;
   transition: all 0.3s ease 0.2s;
   z-index: 1;
+  border-radius: 8px;
 }
 
 .button-ghost::after {

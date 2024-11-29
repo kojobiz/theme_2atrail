@@ -1,4 +1,4 @@
-<?php get_header('contribution'); ?>
+<?php get_header('com'); ?>
 <div class="page-inner full-width">
   <div class="page-main" id="pg-newsDetail">
     <div class="main-container">
