@@ -26,3 +26,5 @@ border: 1px solid rgba(255, 255, 255, 0.03);
 <!-- <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('work')); ?>';">
         <?php echo $contribution_title; ?>一覧を見る
       </button> -->
+
+## 991 まで sp、992 から pc

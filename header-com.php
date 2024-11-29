@@ -27,20 +27,30 @@
                 </h1>
                 <!-- オフキャンバスメニュー -->
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">大阪市淀川区の不動産のことなら<br>経験豊富なアトレイルにお任せください。</h5>
+                        <img src="https://atrail.co.jp/wp-content/uploads/images/logo2.webp" alt="" width="auto" height="34px" style="height: 34px!important; width: auto!important;">
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav jusify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav jusify-content-end flex-grow-1 pe-3" style="padding-top: 50px;">
                             <li class="nav-item">
                                 <a href="<?php echo esc_url(home_url('service')); ?>" class="nav-link">事業内容</a>
+                            </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo esc_url(home_url('work')); ?>" class="nav-link">ギャラリー</a>
                             </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
+                            </li>
                             <li class="nav-item">
                                 <a href="<?php echo esc_url(home_url('company')); ?>" class="nav-link">会社概要</a>
+                            </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo esc_url(home_url('/category/info/')); ?>" class="nav-link">お知らせ</a>
@@ -49,16 +59,21 @@
                         <form id="form-offcanvas" class="row align-items-center gx-3">
                             <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px; margin-bottom: 20px; align-items: center;">
                                 <div class="col-auto" style="width: 155px!important;">
-                                    <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: center; width: 100%;">
-                                        <a href="tel:+06-6379-3018">
+                                    <a href="tel:+06-6379-3018" style="width: 100%;">
+                                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: space-between; width: 100%;">
                                             <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
-                                        </a>06-6379-3018</button>
+                                            06-6379-3018
+                                        </button>
+                                    </a>
                                 </div>
                                 <div class="col-auto" style="width: 155px!important;">
-                                    <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: center; width: 100%;">
-                                        <a href="<?php echo esc_url(home_url('contact')); ?>">
+                                    <a href="<?php echo esc_url(home_url('contact')); ?>" style="width: 100%;">
+                                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: space-between; width: 100%;">
+
                                             <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
-                                        </a>お問い合わせ</button>
+                                            お問い合わせ
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </form>
@@ -66,16 +81,21 @@
                 </div>
                 <form id="form-desktop" class="row align-items-center gx-3">
                     <div class="col-auto" style="width: 155px!important;">
-                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: center; width: 100%;">
-                            <a href="tel:+06-6379-3018">
+                        <a href="tel:+06-6379-3018" style="width: 100%;">
+                            <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: space-between; width: 100%;">
                                 <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
-                            </a>06-6379-3018</button>
+                                06-6379-3018
+                            </button>
+                        </a>
                     </div>
                     <div class="col-auto" style="width: 155px!important;">
-                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: center; width: 100%;">
-                            <a href="<?php echo esc_url(home_url('contact')); ?>">
+                        <a href="<?php echo esc_url(home_url('contact')); ?>" style="width: 100%;">
+                            <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #232323; justify-content: space-between; width: 100%;">
+
                                 <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
-                            </a>お問い合わせ</button>
+                                お問い合わせ
+                            </button>
+                        </a>
                     </div>
                 </form>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border: none;">

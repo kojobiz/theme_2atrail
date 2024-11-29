@@ -317,6 +317,15 @@ div + h1 {
   }
 }
 
+@media (min-width: 992px) {
+  .offcanvas-body .navbar-nav {
+    padding-top: 0px !important;
+  }
+  .offcanvas-body .navbar-nav .nav-item-sp {
+    display: none !important;
+  }
+}
+
 /* スマホ表示（768px未満）では外のフォームを非表示 */
 @media (max-width: 767px) {
   #form-desktop {
