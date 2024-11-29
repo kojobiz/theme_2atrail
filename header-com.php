@@ -106,7 +106,7 @@
     </header>
     <!-- front-page.phpの場合 -->
     <?php if (is_front_page()): ?>
-        <section class="section-contents" id="keyvisual" style="margin-top: 100px;">
+        <section class="section-contents" id="keyvisual" style="margin-top: 85px!important;">
             <!-- カルーセル -->
             <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel" style="position: relative;">
                 <div>

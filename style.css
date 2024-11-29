@@ -4175,7 +4175,7 @@ tel {
   -ms-flex-pack: justify;
   justify-content: space-between;
   justify-items: center;
-  gap: 90px !important;
+  gap: 0px !important;
   /* margin: calc(-147px + 12.6%) auto 0; */
   /* max-width: 960px; */
 }
@@ -4186,7 +4186,6 @@ tel {
 }
 
 #shop .shops-item .shop-body {
-  position: absolute;
   bottom: -88px;
   padding: 20px 22px;
   width: 100%;
