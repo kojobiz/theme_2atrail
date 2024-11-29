@@ -109,7 +109,7 @@
 <section class="section-contents" id="contribution">
   <div class="wrapper">
     <h2 class="section-title">売主様の想いに寄り添う不動産サービス</h2>
-    <p class="section-lead">どのような不動産売却についても細やかに対応いたします/p>
+    <p class="section-lead">どのような不動産売却についても細やかに対応いたします</p>
     <section class="l-gallery-section">
       <ul class="l-section-inner l-section-inner-plf--20px l-gallery-section-inner">
         <li class="l-gallery">
@@ -122,22 +122,54 @@
               <p style="font-size: 11px; color: white;">サポート体制</p>
             </div>
           </div>
-          <p class="sp-pb50" style="padding-top: 20px!important;">居住用の不動産に限らず、駐車場や投資用マンション、工場といった多岐にわたる物件を取り扱うことで、これまでに多くの実績を積み重ねております。仲介をメインに、買取も含めて不動産の売買を幅広く承るなかで、相続関連やローン関係などにも臨機応変に対応する知識を培ってまいりました。確かな経験に基づく柔軟なご提案により、それぞれのお考えを踏まえた円滑な取引をサポートいたします。<br>
-            <br>単に物件の状態や立地条件、相場などに合わせて不動産売却を進めるのではなく、売主様の物件に対する想いや思い出もしっかりと受け取ったうえで次の方(買主様)に引き継いでいけるように努めております。淀川区を中心に様々な地域の不動産についてご相談を承るなかで、売主様に寄り添い、それぞれの現状に合わせた不動産サービスを追求してまいります。
+          <p class="sp-pb50" style="padding-top: 20px!important;">居住用の不動産に限らず、駐車場や投資用マンション、工場といった多岐にわたる物件を取り扱うことで、これまでに多くの実績を積み重ねております。仲介をメインに、買取も含めて不動産の売買を幅広く承るなかで、相続関連やローン関係などにも臨機応変に対応する知識を培ってまいりました。確かな経験に基づく柔軟なご提案により、それぞれのお考えを踏まえた円滑な取引をサポートいたします。
+          </p>
+        </li>
+        <li class="l-gallery" style="margin-top: 30px;">
+          <div style="position: relative;">
+            <img src="//atrail.co.jp/wp-content/uploads/images/bg-section-keyvisual-02.webp" alt="" srcset="" style="border-radius: 8px;">
+            <div style="display: flex; flex-direction: column; background-color: #198754; border-radius: 90px; width: 90px; height: 90px; justify-content: center; align-items: center; position: absolute; bottom: -3%; left: -6%;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16" style="width: 35%; height: 35%; color: white;">
+                <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z" />
+              </svg>
+              <p style="font-size: 11px; color: white;">想いを繋ぐ</p>
+            </div>
+          </div>
+          <p class="sp-pb50" style="padding-top: 20px!important;">単に物件の状態や立地条件、相場などに合わせて不動産売却を進めるのではなく、売主様の物件に対する想いや思い出もしっかりと受け取ったうえで次の方(買主様)に引き継いでいけるように努めております。淀川区を中心に様々な地域の不動産についてご相談を承るなかで、売主様に寄り添い、それぞれの現状に合わせた不動産サービスを追求してまいります。
+          </p>
+        </li>
+        <li class="l-gallery" style="margin-top: 30px;">
+          <div style="position: relative;">
+            <img src="https://atrail.co.jp/wp-content/uploads/images/service_06.png" alt="" srcset="" style="border-radius: 8px;">
+            <div style="display: flex; flex-direction: column; background-color: #198754; border-radius: 90px; width: 90px; height: 90px; justify-content: center; align-items: center; position: absolute; bottom: -3%; left: -6%;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-star" viewBox="0 0 16 16" style="width: 35%; height: 35%; color: white;">
+                <path d="M7.84 4.1a.178.178 0 0 1 .32 0l.634 1.285a.18.18 0 0 0 .134.098l1.42.206c.145.021.204.2.098.303L9.42 6.993a.18.18 0 0 0-.051.158l.242 1.414a.178.178 0 0 1-.258.187l-1.27-.668a.18.18 0 0 0-.165 0l-1.27.668a.178.178 0 0 1-.257-.187l.242-1.414a.18.18 0 0 0-.05-.158l-1.03-1.001a.178.178 0 0 1 .098-.303l1.42-.206a.18.18 0 0 0 .134-.098z" />
+                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+              </svg>
+              <p style="font-size: 11px; color: white;">豊富な実績</p>
+            </div>
+          </div>
+          <p class="sp-pb50" style="padding-top: 20px!important;">不動産売買の仲介や買取はもちろん、お売りいただいた物件のリフォーム等も行ってきた実績を持つスタッフが所属しており、不動産の活用方法も含めた豊富な知見を有しています。単に売買についてご案内するのみならず、お客様に適した土地活用等もサポートできるため、「実際に売るかどうかまだ迷っている」「きちんと不動産の価値を見出してほしい」といった想いにもしっかりとお応えいたします。まずはそれぞれの物件について現状のお悩みや今後のご要望を細やかにお伺いしたうえで、より利益を上げるための方法についてアドバイスしてまいります。
           </p>
         </li>
       </ul>
     </section>
   </div>
-  <br>
-  <br>
-  <div class="section-buttons">
-    <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('service')); ?>';">
-      <?php echo $shop_title; ?>一覧を見る
+  <!-- cta -->
+  <section class="l-cta" style="padding-top: 30px;">
+    <button class="p-cta-btn">
+      <div style="display:flex; flex-direction: row; justify-content:center; align-items:center; gap: 5px;">
+        <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-mail">
+        <a href="https://atrail.co.jp/contact/" style="font-size: 16px;">お問い合わせ</a>
+      </div>
     </button>
-  </div>
-
+  </section>
 </section>
+
+
+
+
+
 
 
 <!-- 施工事例ここから -->

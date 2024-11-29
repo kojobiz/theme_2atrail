@@ -387,8 +387,8 @@ cta
 .l-cta button {
   width: 264px;
   height: 60px;
-  background: linear-gradient(to right, #3ca88f, #007bf7);
-  border-radius: 60px;
+  background: linear-gradient(to right, #198754, #007bf7);
+  border-radius: 8px;
 }
 .l-cta button a {
   color: #fff;
@@ -672,6 +672,10 @@ form
   color: #fff;
   margin: 0 auto;
   padding: 0 !important;
+}
+input[type="submit"] {
+  border-radius: 8px;
+  border: 1px solid #949494 !important;
 }
 
 .l-flex-center {
