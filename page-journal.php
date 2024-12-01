@@ -13,7 +13,7 @@ get_header('logo');
             </div>
             <!-- 事例セクション -->
             <section class="section-contents" id="work">
-                <ul class="works-box" style="display:flex; justify-content: center; align-items: flex-start; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+                <ul class="works-box">
                     <?php
                     $args = array(
                         'post_type' => 'works',
