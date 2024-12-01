@@ -6,7 +6,7 @@
             $work_img = get_field('work_img');
             if ($work_img) :
             ?>
-                <img src="<?php echo esc_url($work_img); ?>" alt="" style="max-width: 300px; max-height: 220px; aspect-ratio: 300 / 220;">
+                <img src="<?php echo esc_url($work_img); ?>" alt="" style="max-width: 300px; max-height: 220px; aspect-ratio: 300 / 220; border-radius: 8px;">
             <?php endif; ?>
         </div>
 

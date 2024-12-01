@@ -6,11 +6,11 @@
   <hr>
   <!-- 内容 -->
   <div>
-  <!-- <div class="news-body"> -->
+    <!-- <div class="news-body"> -->
     <!-- アピールポイント -->
     <div style="padding-bottom:30px;">
       <?php the_content(); ?>
-      <p class="works-link-text" style="font-size: 16px; display: flex; padding: 5px 0px;">
+      <p class="works-link-text" style="font-size: 16px; display: flex; padding: 5px 0px; font-weight: 100; line-height: 2.4; letter-spacing: 0.3rem;">
         <?php
         $work_strong = get_field('work_strong');
         if ($work_strong) :
@@ -25,7 +25,7 @@
     $work_img = get_field('work_img');
     if ($work_img) :
     ?>
-      <img src="<?php echo esc_url($work_img); ?>" alt="" style="aspect-ratio: 2560 / 1690;">
+      <img src="<?php echo esc_url($work_img); ?>" alt="" style="aspect-ratio: 2560 / 1690; border-radius: 8px;">
     <?php endif; ?>
     <!-- タクソノミー -->
     <div style="display: flex; flex-wrap: wrap; gap: 5px; max-width: 100%;">
@@ -63,7 +63,7 @@
 
   </div><!--内容ここまで-->
 </div>
-<!-- 最新の施工事例はこちら -->
+<!-- 最新の関連はこちら -->
 <div>
   <?php get_template_part('content-tax-info'); ?>
 </div>
