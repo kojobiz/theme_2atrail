@@ -1,7 +1,8 @@
                     <article class="article-card">
                       <a class="card-link" href="<?php echo get_term_link($term); ?>">
                         <div class="image">
-                          <img alt="" src="https://atrail.co.jp/wp-content/uploads/images/bg-page-shop.jpg" />
+                          <!-- <img alt="" src="https://atrail.co.jp/wp-content/uploads/images/bg-page-shop.jpg" /> -->
+                          <?php the_post_thumbnail(); ?>
                         </div>
                         <div class=" body">
                           <p class="title"><?php echo $term->name; ?></p>
@@ -12,4 +13,3 @@
                         </div>
                       </a>
                     </article>
-                  

@@ -286,6 +286,7 @@ div + h1 {
   max-width: 100%;
   border-radius: 8px;
 }
+
 /* .l-gallery-section .l-gallery:nth-child(even) {
   grid-template-columns: 1fr 1fr;
 }
@@ -5162,12 +5163,13 @@ input[type="submit"]::after {
 
 .page-head > img {
   width: 100%;
-  height: 330px;
+  max-height: 330px;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+  object-position: center 42%;
 }
 
 .page-contents {
