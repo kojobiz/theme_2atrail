@@ -17,9 +17,9 @@ get_header('building');
           <!-- <ul class="works-box" style="max-width: 300px;"> -->
           <?php
           $args = array(
-            'post_type' => 'works',
-            'post_status' => 'publish',
-            'posts_per_page' => -1,
+            'post_type' => 'works', // カスタム投稿タイプ
+            'post_status' => 'publish', // 公開済み
+            'posts_per_page' => -1, // すべての投稿を取得
           );
 
           $the_query = new WP_Query($args);
@@ -75,6 +75,8 @@ get_header('building');
           <?php
             endwhile;
             wp_reset_postdata();
+          else :
+            echo '<p>該当する投稿はありません。</p>';
           endif;
           ?>
         </ul>

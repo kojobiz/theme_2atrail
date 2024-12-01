@@ -32,15 +32,30 @@
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav jusify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav jusify-content-end flex-grow-1 pe-3" style="padding-top: 50px;">
                             <li class="nav-item">
                                 <a href="<?php echo esc_url(home_url('service')); ?>" class="nav-link">事業内容</a>
                             </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
+                            </li>
                             <li class="nav-item">
-                                <a href="<?php echo esc_url(home_url('work')); ?>" class="nav-link">ギャラリー</a>
+                                <a href="<?php echo esc_url(home_url('journal')); ?>" class="nav-link">ジャーナル</a>
+                            </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
+                            </li>
+                            <li class="nav-item">
+                                <a href="<?php echo esc_url(home_url('container')); ?>" class="nav-link">コンテナ案件</a>
+                            </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo esc_url(home_url('company')); ?>" class="nav-link">会社概要</a>
+                            </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo esc_url(home_url('/category/info/')); ?>" class="nav-link">お知らせ</a>

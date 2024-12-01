@@ -1,19 +1,20 @@
 <?php
 /*
-Template Name: ジャーナル
+Template Name: コンテナ
 */
-get_header('logo');
+get_header('container');
 ?>
 <div class="page-inner full-width">
     <div class="page-main" id="pg-shopDetail">
         <div class="shopList-Container" style="margin-top: 0px!important; padding-top:90px!important;">
             <div class="shopList-head">
                 <span class="title-en"></span>
-                <h2 class="title" style="font-size:clamp(16px, 2vw, 30px)!important;">不動産のプロがお伝えします！</h2>
+                <h2 class="title" style="font-size:clamp(16px, 2vw, 30px)!important;">コンテナで、かなえる。</h2>
             </div>
             <!-- 事例セクション -->
             <section class="section-contents" id="work">
-                <ul class="works-box">
+                <ul class="works-box" style="display:flex; justify-content: center; align-items: flex-start; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+                    <!-- <ul class="works-box" style="max-width: 300px;"> -->
                     <?php
                     $args = array(
                         'post_type' => 'works', // カスタム投稿タイプ
@@ -24,11 +25,10 @@ get_header('logo');
                                 'taxonomy' => 'worktype', // タクソノミー名
                                 'field' => 'slug', // スラッグを指定
                                 'terms' => array('containeroffice', 'containergarage', 'containershop', 'containerhouse'), // 表示するスラッグ
-                                'operator' => 'NOT IN', // 指定されたスラッグを含まない投稿
+                                'operator' => 'IN', // 指定されたスラッグを含む投稿
                             ),
                         ),
                     );
-
 
                     $the_query = new WP_Query($args);
                     if ($the_query->have_posts()) :
@@ -83,6 +83,8 @@ get_header('logo');
                     <?php
                         endwhile;
                         wp_reset_postdata();
+                    else :
+                        echo '<p>該当する投稿はありません。</p>';
                     endif;
                     ?>
                 </ul>

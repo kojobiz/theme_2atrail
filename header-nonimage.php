@@ -41,7 +41,13 @@
                                 <hr>
                             </li>
                             <li class="nav-item">
-                                <a href="<?php echo esc_url(home_url('work')); ?>" class="nav-link">ギャラリー</a>
+                                <a href="<?php echo esc_url(home_url('journal')); ?>" class="nav-link">ジャーナル</a>
+                            </li>
+                            <li class="nav-item nav-item-sp">
+                                <hr>
+                            </li>
+                            <li class="nav-item">
+                                <a href="<?php echo esc_url(home_url('container')); ?>" class="nav-link">コンテナ案件</a>
                             </li>
                             <li class="nav-item nav-item-sp">
                                 <hr>

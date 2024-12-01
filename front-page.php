@@ -137,7 +137,7 @@
       $shop_pages = new WP_Query(array(
         'post_type'      => 'page', // 固定ページ
         'post_parent'    => $shop_obj->ID, // 親ページIDを指定
-        'posts_per_page' => 13, // 最大13件
+        'posts_per_page' => -1, // 最大件数
         'post_status'    => 'publish' // 公開記事のみ取得
       ));
 
@@ -246,18 +246,18 @@
 
 
 
-<!-- 施工事例ここから -->
+<!-- ジャーナルここから -->
 <section class="section-contents" id="contribution">
   <div class="wrapper">
     <?php
-    $contribution_obj = get_page_by_path('work');
+    $contribution_obj = get_page_by_path('journal');
     $post = $contribution_obj;
     setup_postdata($post);
     $contribution_title = get_the_title();
     ?>
     <span class="section-title-en"><?php the_field('english_title'); ?></span>
     <h2 class="section-title"><?php the_title(); ?></h2>
-    <p class="section-lead"><?php echo get_the_excerpt(); ?></p>
+    <p class="section-lead">経験豊富なプロが不動産のあれこれをお伝えいたします！</p>
     <?php wp_reset_postdata(); ?>
     <div class="articles">
       <?php
@@ -265,13 +265,21 @@
         'post_type' => 'works',
         'post_status' => 'publish',
         'posts_per_page' => 3,
+        'tax_query' => array(
+          array(
+            'taxonomy' => 'worktype', // タクソノミー名
+            'field' => 'slug', // スラッグを指定
+            'terms' => array('containeroffice', 'containergarage', 'containershop', 'containerhouse'), // 表示するスラッグ
+            'operator' => 'NOT IN', // 指定されたスラッグを含まない投稿
+          ),
+        ),
       );
 
       $the_query = new WP_Query($args);
       if ($the_query->have_posts()) :
         while ($the_query->have_posts()) : $the_query->the_post();
       ?>
-          <article class="article-card">
+          <article class="article-card" style="border-radius: 8px;">
             <a class="card-link" href="<?php the_permalink(); ?>">
               <div class="card-inner">
                 <div class="card-image">
@@ -279,7 +287,7 @@
                   $work_img = get_field('work_img');
                   if ($work_img) :
                   ?>
-                    <img src="<?php echo esc_url($work_img); ?>" alt="" style="height: 445px;">
+                    <img src="<?php echo esc_url($work_img); ?>" alt="" style="height: 145px; border-radius: 8px 8px 0px 0px;">
                   <?php endif; ?>
                 </div>
                 <div class="card-body">
@@ -324,7 +332,7 @@
 
     <!-- 施工事例 -->
     <div class="section-buttons">
-      <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('work')); ?>';">
+      <button type="button" class="button button-ghost" onclick="javascript:location.href = '<?php echo esc_url(home_url('journal')); ?>';">
         <?php echo $contribution_title; ?>一覧を見る
       </button>
     </div>

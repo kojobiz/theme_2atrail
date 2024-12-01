@@ -4211,6 +4211,7 @@ tel {
   background-color: #fff;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.07);
   transition: all 0.3s ease-out;
+  border-radius: 0px 0px 8px 8px;
 }
 
 #shop .shops-item .shop-body .name {
@@ -4519,22 +4520,16 @@ tel {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: grid;
     flex-direction: column !important;
     align-content: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: calc(-30px + 8.5%) auto 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px !important;
   }
 
   #shop .shops-item {
     margin: 32px 0 56px;
-    width: 48.55072%;
+    /* width: 48.55072%; */
   }
 
   #shop .shops-item .shop-image img {
@@ -4551,6 +4546,7 @@ tel {
     text-align: left;
     background-color: #fff;
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.07);
+    border-raidus: 0px 0px 8px 8px;
   }
 
   #shop .shops-item .shop-body .name {
@@ -4628,7 +4624,7 @@ tel {
   }
 
   #pg-shopDetail .shopList-Container {
-    margin-top: 13.4%;
+    margin-top: 13.4% !important;
   }
 
   #pg-shopDetail .shopList-Container .shopList-head .title-en {

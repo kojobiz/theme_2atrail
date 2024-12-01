@@ -6,7 +6,14 @@
   <hr>
   <!-- 内容 -->
   <div>
-    <!-- <div class="news-body"> -->
+    <!-- 画像 -->
+    <?php the_post_thumbnail(); ?>
+    <?php
+    $work_img = get_field('work_img');
+    if ($work_img) :
+    ?>
+      <img src="<?php echo esc_url($work_img); ?>" alt="" style="aspect-ratio: 2560 / 1690; border-radius: 8px;">
+    <?php endif; ?>
     <!-- アピールポイント -->
     <div style="padding-bottom:30px;">
       <?php the_content(); ?>
@@ -19,14 +26,7 @@
         ?>
       </p>
     </div>
-    <!-- 画像 -->
-    <?php the_post_thumbnail(); ?>
-    <?php
-    $work_img = get_field('work_img');
-    if ($work_img) :
-    ?>
-      <img src="<?php echo esc_url($work_img); ?>" alt="" style="aspect-ratio: 2560 / 1690; border-radius: 8px;">
-    <?php endif; ?>
+
     <!-- タクソノミー -->
     <div style="display: flex; flex-wrap: wrap; gap: 5px; max-width: 100%;">
       <?php
