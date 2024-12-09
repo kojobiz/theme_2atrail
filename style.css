@@ -4235,7 +4235,7 @@ tel {
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.07);
   transition: all 0.3s ease-out;
   border-radius: 0px 0px 8px 8px;
-  height: 165px;
+  /* height: 165px; */
 }
 
 #shop .shops-item .shop-body .name {
