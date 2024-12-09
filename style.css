@@ -329,9 +329,15 @@ div + h1 {
 }
 
 /* スマホ表示（768px未満）では外のフォームを非表示 */
+
 @media (max-width: 767px) {
   #form-desktop {
     display: none;
+  }
+}
+@media (max-width: 991px) {
+  .nav-item {
+    font-size: 18px;
   }
 }
 /* ↑bootstrapナビ */
@@ -4212,6 +4218,7 @@ tel {
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.07);
   transition: all 0.3s ease-out;
   border-radius: 0px 0px 8px 8px;
+  height: 165px;
 }
 
 #shop .shops-item .shop-body .name {
