@@ -42,7 +42,7 @@ if (! $footer_cache = get_transient('footer_cache')):
     <p class="copyright-text">&copy;<span class="copyright-name">ATRAIL CO., LTD.</span></p>
 
     <div class="scroll-top fixed-bottom">
-      <button id="scroll-top"><a href="#top"></a></button>
+      <a href="#top"><button id="scroll-top"></button></a>
     </div>
   </footer>
 <?php
