@@ -38,11 +38,12 @@ if (! $footer_cache = get_transient('footer_cache')):
         </nav>
       </div>
     </div>
-    <p class="copyright">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。
+    <p class="copyright">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。</p>
     <p class="copyright-text">&copy;<span class="copyright-name">ATRAIL CO., LTD.</span></p>
-    </p>
+
     <div class="scroll-top">
-      <button id="scroll-top"></button>
+      <button id="scroll-top"><a href="javascript:void(0)" class="scroll-top">トップに戻る</a>
+      </button>
     </div>
   </footer>
 <?php
