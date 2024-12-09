@@ -41,6 +41,9 @@ if (! $footer_cache = get_transient('footer_cache')):
     <p class="copyright">大阪市淀川区の不動産のことなら、経験豊富なアトレイルにお任せください。
     <p class="copyright-text">&copy;<span class="copyright-name">ATRAIL CO., LTD.</span></p>
     </p>
+    <div class="scroll-top">
+      <button id="scroll-top"></button>
+    </div>
   </footer>
 <?php
   $footer_cache = ob_get_clean();
