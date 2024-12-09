@@ -63,18 +63,18 @@
                             </li>
                         </ul>
                         <form id="form-offcanvas" class="row align-items-center gx-3">
-                            <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px; margin-bottom: 20px; align-items: center;">
-                                <div class="col-auto" style="width: 155px!important;">
-                                    <a href="tel:+06-6379-3018" style="width: 100%;">
-                                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #198754; color:white; background-color:#198754; justify-content: space-between; width: 100%;">
+                            <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 60px; margin-bottom: 20px; align-items: center;">
+                                <div class="col-auto" style="width: 100%">
+                                    <a href="tel:+06-6379-3018" style="width: 100%; height: 80px;">
+                                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #198754; color:white; background-color:#198754; justify-content: space-between; width: 100%; height: 80px;">
                                             <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-tel-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
                                             06-6379-3018
                                         </button>
                                     </a>
                                 </div>
-                                <div class="col-auto" style="width: 155px!important;">
+                                <div class="col-auto" style="width: 100%; height: 80px;">
                                     <a href="<?php echo esc_url(home_url('contact')); ?>" style="width: 100%;">
-                                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #39b9d3; color:white; background-color:#39b9d3; justify-content: space-between; width: 100%;">
+                                        <button class="btn btn-light mr3" type="button" style="display: flex; align-items: center; font-size: 16px; border:0.7px solid #39b9d3; color:white; background-color:#39b9d3; justify-content: space-between; width: 100%; height: 80px;">
 
                                             <img src="https://atrail.co.jp/wp-content/uploads/images/svg/icon-mail-circle.svg" alt="" srcset="" class="img-tel" style="height: 24px!important; width: auto; padding-right: 2px;">
                                             お問い合わせ
