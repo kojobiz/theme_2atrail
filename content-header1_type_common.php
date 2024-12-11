@@ -60,7 +60,7 @@
                                     <hr>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="<?php echo esc_url(home_url('/category/info/')); ?>" class="nav-link">お知らせ</a>
+                                    <a href="<?php echo esc_url(home_url('/archives/category/info/')); ?>" class="nav-link">お知らせ</a>
                                 </li>
                             </ul>
                             <form id="form-offcanvas" class="row align-items-center gx-3">
